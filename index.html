@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MI PERFIL HTML</title>
+</head>
+<body>
+
+  <header>
+    <h1>LUIS DAVID REBELO BASURTO</h1>
+    <p>"Mi identidad no me define, pero mi compromiso sí."</p>
+    <img src="/imagenes/Luis Rebelo.jfif" alt="Foto de Luis Rebelo">
+  </header>
+<br>
+  <nav>
+    <a href="#sobremi">Sobre mí</a><br>
+    <a href="#intereses">Intereses</a><br>
+    <a href="#habilidades">Habilidades</a><br>
+    <a href="#presentacion">Presentación</a><br>
+    <a href="#contacto">Contacto</a><br>
+  </nav> 
+<hr>
+  <section id="sobremi">
+    <h2>SOBRE MI</h2>
+    <p>
+      ¡Hola! Soy <strong>Luis Rebelo</strong>, un estudiante de la carrera Ingenieria en sistemas de la informacion,
+      apasionado por la musica y el aprendizaje se tocar piano y guitarra y me considero de la comunidad LGBTIQ+
+      Me considero una persona <em>curiosa</em>, dedicada y con una gran <mark>capacidad de adaptación</mark>. 
+      Siempre busco crecer y <strong>dar lo mejor de mí</strong> en cada cosa que me propongo.
+    </p>
+  </section>
+<hr>
+  <section id="intereses">
+    <h2>MIS INTERESES</h2>
+    <ul>
+      <li>Ver Kdramas y series </li>
+      <li>Jugar videojuegos</li>
+      <li>Practicar piano y guitarra</li>
+      <li>Escuchar música</li>
+      <li>Aprender nuevos idiomas</li>
+    </ul>
+  </section>
+<hr>
+  <section id="habilidades">
+    <h2>TABLA DE HABILIDADES</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Habilidad</th>
+          <th>Nivel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>HTML</td>
+          <td>Intermedio</td>
+        </tr>
+        <tr>
+          <td>INGLES</td>
+          <td>Intermedio</td>
+        </tr>
+        <tr>
+          <td>Piano</td>
+          <td>Avanzado</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">Siempre dispuesto a seguir aprendiendo.</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+<hr>
+  <section id="presentacion">
+    <h2>MI PRESENTACION EN AUDIO</h2>
+    <audio controls>
+<source src="/audios/WhatsApp Audio 2025-05-13 at 9.35.48 PM (1).mp4" type="audio/mpeg">
+</audio>
+  </section>
+<hr>
+  <section id="contacto">
+    <h2>Formulario de contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="correo">Correo electrónico:</label><br>
+      <input type="email" id="correo" name="correo" required><br><br>
+
+      <label for="edad">Edad:</label><br>
+      <input type="number" id="edad" name="edad" min="12
+      " max="99" required><br><br>
+
+      <label for="genero">Género:</label><br>
+      <select id="genero" name="genero" required>
+        <option value="">--Selecciona--</option>
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+        <option value="Lgbtiq+">Lgbtiq+</option>
+      </select><br><br>
+
+      <label>Intereses:</label><br>
+      <input type="checkbox" name="interes" value="programacion"> Programación<br>
+      <input type="checkbox" name="interes" value="videojuegos"> Videojuegos<br>
+      <input type="checkbox" name="interes" value="musica"> Música<br><br>
+
+      <label for="comentarios">Comentarios:</label><br>
+      <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea><br><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+<hr>
+  <footer>
+    <p>&copy; 2025 Luis Rebelo. Todos los derechos reservados.</p>
+    <p>
+      <a href="https://www.instagram.com/luisdavidrebelo?igsh=OXk2aHg5N3FjdWJ4" target="_blank">Instagram</a> |
+      <a href="https://www.facebook.com/share/198QL8A8DK/" target="_blank">facebook</a> |
+      <p> Telefono:+593988034988</p>
+    </p>
+  </footer>
+
+</body>
+</html>
